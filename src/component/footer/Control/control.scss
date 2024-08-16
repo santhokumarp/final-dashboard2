@@ -1,0 +1,38 @@
+.control{
+    flex: 3;
+   background-color:#FFFFFF;
+   padding: 20px;
+   border-radius: 20px;
+
+   .cmc{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 20px;
+    .cmc-text{
+        font-size: 20px;
+        font-weight: bold;
+        color: #2B3674;
+
+    }
+  
+   }
+   .btn-cards{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    border-radius: 10px;
+    padding: 13px 95px;
+    border: none;
+    outline: none;
+    background-color: #4318FF;
+    color: #FFFFFF;
+    
+   }
+
+
+
+
+}

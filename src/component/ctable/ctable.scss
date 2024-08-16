@@ -1,0 +1,147 @@
+.ctable{
+    flex: 2.8;
+  background-color: #ffffff;
+    border-radius: 20px;
+
+   
+   
+      
+      .table-container {
+        width: 95%; 
+        max-width: 1000px; 
+        height:330px;
+        margin: 0 auto;
+        border-radius: 8px;
+        overflow: hidden;
+        background-color: #fff;
+        
+      }
+      
+      .table-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px;
+        background-color: #ffffff; 
+        position: relative;
+      }
+      
+      .table-header h1 {
+        font-size: 18px;
+        margin: 0;
+      }
+      
+      .action-icon {
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+        position: relative;
+      }
+      
+      .action-icon::before {
+        content: '⋮';
+        font-size: 24px;
+        color: #4318FF;
+        position: absolute;
+        top: 10px;
+        right: -10px;
+        background: #F4F7FE;
+        transform: rotate(90deg);
+        padding: 2px 9px;
+        border-radius: 10px;
+        
+      }
+      
+      .dropdown-menu {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background-color: #A3AED0; 
+        border-radius: 4px;
+        overflow: hidden;
+        display: none;
+        flex-direction: column;
+        min-width: 120px;
+      }
+      
+      .dropdown-menu.show {
+        display: flex;
+      }
+      
+      .dropdown-menu a {
+        padding: 10px;
+        color: #ffffff; 
+        text-decoration: none;
+        display: block;
+        font-size: 14px;
+        transition: background-color 0.3s;
+      }
+      
+      .dropdown-menu a:hover {
+        background-color: #f1f1f1;
+        color: #4318FF;
+      }
+      
+      table {
+        
+        border-collapse: collapse;
+      }
+      
+      th, td {
+        padding: 10px 20px;
+        text-align: left;
+       
+      }
+      
+      th {
+        background-color: #ffffff;
+        color: #A3AED0;
+        font-size: 14px;
+        padding: 10px 15px;
+        
+       
+      }
+      
+      td {
+        background-color: #ffffff; 
+        border-bottom:none; 
+        font-size: 14px;
+       
+        
+
+       
+      }
+      
+      td:first-child {
+        display: flex;
+        align-items: center;
+      }
+      
+      td:first-child input[type="checkbox"] {
+        margin-right: 10px;
+        accent-color: #6C63FF;
+      }
+      
+      td:last-child {
+        text-align: left;
+      }
+      
+      @media (max-width: 600px) {
+        th, td {
+          padding: 10px;
+          font-size: 12px;
+        }
+      
+        td:first-child {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+      }
+      
+      
+
+
+
+  
+        
+    }

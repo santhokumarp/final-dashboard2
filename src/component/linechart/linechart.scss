@@ -1,0 +1,45 @@
+.linechart{
+    background-color: white;
+    border-radius: 20px;
+    flex: 3;
+    height: 300px;
+    .left{
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+    .mbutton{
+        background-color:#F4F7FE;
+        color: #A3AED0;
+        display: flex;
+        width: 110px;
+        height: 37px;
+        align-items: center;
+        justify-content: center;outline: none;
+        border: none;
+        border-radius: 7px;
+        font-size: 12px;
+        gap: 5px;
+    }
+    .lbar{
+        background:#F4F7FE;
+        color: #4318FF;
+    }
+}
+.right{
+    padding: 20px;
+    .dollar{
+        font-size: 34px;
+        font-weight: bold;
+    }
+}
+.middle{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: -30px;
+
+   
+    
+     
+  }
+
+}

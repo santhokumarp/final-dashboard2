@@ -1,0 +1,39 @@
+.widfull{
+    display: flex;
+    height: 94px;
+    flex: 6;
+   background: #ffff;
+   border-radius: 20px;
+   transition: transform 0.3s ease;
+
+   .left{
+    display: flex;
+    flex-direction: column;
+
+    .title{
+        color: #A3AED0;
+        font-size: 10px;
+      
+       margin-left: 60px;
+       margin-top: 25px;
+       display: flex;
+    }
+    .amount{
+        display: flex;
+        align-items: center;
+        font-size: 24px;
+        font-weight:400px;
+        margin-left: 60px;
+    }
+    
+   
+   }
+   .bar-icon{
+    margin-top: -68px;
+   
+}
+
+}
+.widfull:hover {
+    transform: translateY(-10px);
+  }

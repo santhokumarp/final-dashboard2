@@ -1,0 +1,354 @@
+.dark{
+   
+
+    .home{
+           background-color: #111C44 ;
+        
+        .home-container{
+           
+
+            .table{
+                background-color: #0B1437;
+            }
+        }
+    }
+
+
+    .siderbar{
+        background-color: #111C44;
+        .top{
+         
+
+         color: #FFFFFF;
+       .logo{
+        color: #FFFFFF;
+       }
+       #free{
+        color: #FFFFFF;
+       }
+    
+    }
+
+    
+        
+        hr{
+            border-color: #FFFFFF;
+            
+        }
+        ul {
+            background-color: #111C44;
+
+
+            &:hover{
+
+                .icon{
+                color: #FFFFFF;
+                }
+                .ntext{
+                    color: #FFFFFF;
+                }
+
+            }
+
+
+            
+            
+        }
+        .ntext{
+            color: #FFFFFF;
+        }
+        
+        .icon{
+            color: #FFFFFF;
+
+        }
+       
+    }
+
+    .navbar{
+        .nav-container{
+        background-color:#0B1437;
+        .p-d{
+            color: #FFFFFF;
+        }
+            .m-d{
+                color: #FFFFFF;
+            
+            
+        }
+        .nav-items{
+            background-color: #111C44;
+            .item1{
+                background-color: #0B1437;
+
+            .s-icon{
+                color: #FFFFFF;
+
+                }
+                input{
+                    background:#0B1437 ;
+                    color: #FFFFFF;
+
+                    &::placeholder{
+                        color: #FFFFFF;
+                    }
+
+                }
+            }
+            .item2{
+                color: #FFFFFF;
+            }
+            .item3{
+                color: #FFFFFF;
+            }
+            .item4{
+                color: #FFFFFF;
+            }
+        }
+        
+    }
+    
+    }
+
+    .widfull{
+        background:#111C44;
+
+        .title{
+            color: #A3AED0;
+        }
+        .amount{
+            color: #FFFFFF;
+        }
+        
+    }
+
+    .linechart{
+        background-color: #111C44;
+
+        .mbutton{
+            background-color: #1B254B;
+            color: #FFFFFF;
+        }
+        .dollar{
+            color: #FFFFFF;
+        }
+        .lbar{
+            background-color: #1B254B;
+            color: #FFFFFF;
+        }
+        
+    }
+    .barchart{
+        background-color: #111C44;
+        color: #FFFFFF;
+        .bri{
+            background-color: #1B254B;
+            color: #FFFFFF;
+        }
+    }
+
+    .ctable{
+        background-color: #111C44;
+        .table-container{
+            background-color: #111C44;
+        
+        }
+        .table-header{
+
+            background-color: #111C44;
+            color: #FFFFFF;
+        }
+        th{
+            background-color: #111C44;
+           
+        }
+        td{
+            background-color: #111C44;
+            color: #FFFFFF;
+        }
+        .action-icon::before{
+            background-color: #1B254B;
+            color: #FFFFFF;
+        }
+    }
+    .btable{
+        background-color: #111C44;
+       .dat{
+        color: #FFFFFF;
+       }
+        
+    }
+
+    .ptable{
+        background-color: #111C44;
+    }
+
+
+    .table-container{
+
+        background-color: #111C44;
+        border-radius: 20px;
+     .table-header{
+        background-color: #111C44;
+        color: #FFFFFF;
+     }
+     th{
+        background-color: #111C44;
+     }
+     td{
+        background-color: #111C44;
+        color: #FFFFFF;
+     }
+     .action-icon::before{
+        background-color: #1B254B;
+        color: #FFFFFF;
+     }
+    }
+    .todo-container {
+        background-color: #111C44;
+
+        .header{
+            background-color: #111C44;
+            .header-title h1{
+                color: #FFFFFF;
+
+                
+    
+            }
+          
+        }
+        label{
+            color: #FFFFFF;
+        }
+        .move-icon{
+            color: #FFFFFF;
+        }
+        .action-icon::before{
+            background-color: #1B254B;
+            color: #FFFFFF;
+        }
+    }
+
+
+    .Cal{
+
+        background-color: #111C44;
+        .calendar-header{
+            select{
+
+                background-color: #1B254B;
+                color: #FFFFFF;
+            }
+        }
+        .days-of-week{
+            color: #FFFFFF;
+        }
+        .calendar-body div {
+            color: #FFFFFF;
+        }
+    }
+
+    .business{
+        background-color: #111C44;
+        .f-content-box{
+            background-color: #1B254B;
+        }
+        button{
+         background-color: #7551FF;
+
+        }
+        .box-items{
+            color: #FFFFFF;
+        }
+        .nla{
+         color: #FFFFFF;
+        }
+        .bm-text{
+            color: #FFFFFF;
+        }
+    }
+
+    .team{
+        background-color: #111C44;
+
+        .team-text{
+            color: #FFFFFF;
+        }
+        .add-icon{
+            background-color: #1B254B;
+            color: #FFFFFF;
+        }
+        .tbox1{
+            background-color: #1B254B;
+            box-shadow: rgba(163, 174, 208) 0px 2px 5px 0px;
+
+            .content1{
+                span{
+                    color: #FFFFFF;
+                }
+                p{
+                    color: #FFFFFF;
+                }
+            }
+            }
+            .tbox2{
+                background-color: #1B254B;
+                box-shadow: rgba(163, 174, 208) 0px 2px 5px 0px;
+            .content2{
+                span{
+                    color: #FFFFFF;
+                }
+                p{
+                    color: #FFFFFF;
+                }
+                
+            }
+        }
+        .tbox3{
+            background-color: #1B254B;
+            box-shadow: rgba(163, 174, 208) 0px 2px 5px 0px;
+            .content3{
+                span{
+                    color: #FFFFFF;
+                }
+                p{
+                    color: #FFFFFF;
+                }
+                
+            }
+        }
+    }
+
+
+
+    .control{
+        background-color: #111C44;
+
+        .cmc-text{
+            color: #FFFFFF;
+        }
+    }
+    .starbucks{
+        background-color: #111C44;
+        .star-text{
+            color: #FFFFFF;
+        }
+    }
+
+
+    .container {
+        background-color: #111C44;
+        .header span:first-child {
+            color: #FFFFFF;
+          }
+          .p-b span:nth-child(3) {
+            color: #FFFFFF;
+           
+          }
+          .p-b{
+            background-color: #1B254B;
+          }
+    }
+
+    }
+

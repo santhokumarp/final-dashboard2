@@ -1,0 +1,78 @@
+.Cal {
+    flex: 3;
+    background-color:#ffffff;
+    border-radius: 20px;
+
+    .calendar {
+       
+        padding: 20px;
+        border-radius: 30px;
+        width: 250px;
+        height: 260px;
+        
+        text-align: center;
+    }
+    
+    .calendar-header {
+        margin-bottom: 10px;
+    }
+    
+    select {
+        padding: 5px;
+        margin: 0 5px;
+        border: none;
+        border-radius: 40px;
+        background-color: #F4F7FE;
+        color: #4318FF;
+        font-size: 16px;
+        outline: none;
+    }
+    
+    .calendar-body {
+        display: grid;
+        grid-template-columns: repeat(7, 0.8fr);
+        gap: 0px;
+        margin-bottom: 20px;
+      margin-left: -15px;
+      margin-top: 20px;
+    }
+    
+    .calendar-body div {
+        padding: 10px;
+        text-align: center;
+        border-radius: 50px;
+        background-color: none;
+        cursor: pointer;
+        color: #2B3674;
+        margin-bottom:-10px;
+    }
+    
+    .calendar-body div.current-date {
+        background-color: #1B254B;
+    }
+    
+    .calendar-body div.selected {
+        background-color: #7551FF;
+    }
+    
+    .calendar-body div.in-range {
+        
+        color: #2B3674;
+    }
+    
+    .days-of-week {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        gap: 2px;
+        font-weight: bold;
+        font-size: 14px;
+        margin-bottom: 10px;
+        color: #2B3674;
+        margin-left: -10px;
+    }
+    
+    .days-of-week div {
+        padding: 5px;
+        text-align: center;
+    }
+}

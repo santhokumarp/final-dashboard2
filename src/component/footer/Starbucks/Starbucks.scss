@@ -1,0 +1,35 @@
+.starbucks{
+    flex: 3;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 15px;
+
+    .bg-img{
+        position:relative;
+        
+        width:225px;
+        height:225px;
+        margin-top:-50px;
+
+    
+        
+    }
+    .star-text{
+        display: flex;
+        flex-direction: column;
+        font-size: 24px;
+        font-weight: bold;
+        color: #2B3674;
+        gap: 30px;
+
+        
+    }
+    .star-icon{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        color: #A3AED0;
+        gap: 10px;
+    }
+}
